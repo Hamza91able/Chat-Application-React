@@ -1,0 +1,12 @@
+.center {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .center {
+        position: absolute;
+        width: 90%;
+    }
+}
